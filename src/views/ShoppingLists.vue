@@ -1,10 +1,10 @@
 <template>
-<h1>Welcome to your shopping cards</h1>
+<h1>Welcome to your shopping lists</h1>
 </template>
 
 <script>
 export default {
-  name: 'ShoppingCards'
+  name: 'ShoppingLists'
 }
 </script>
 

@@ -1,10 +1,16 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+<about-bar></about-bar>
   <router-view/>
 </template>
+
+<script>
+import AboutBar from './components/AboutBar'
+
+export default {
+  name: 'App',
+  components: { AboutBar }
+}
+</script>
 
 <style>
 #app {
